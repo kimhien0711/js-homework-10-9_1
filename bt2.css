@@ -1,0 +1,23 @@
+#container {
+    padding: 0 15px;
+}
+
+#product_name, #product_quantity, #product_price, #button {
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="number"] {
+    margin-left: 5px;
+}
+
+#tb {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#tb th, #tb td {
+    text-align: left;
+    border: 1px solid #ccc;
+    padding: 8px;
+}
