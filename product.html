@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+    <h1>New Product</h1>
+    <hr>
+    <form action="" name="frm" id="frm">
+        <div class="box_name">
+            <label for="" class="name">Product name</label>
+            <input type="text" name="" id="nhap_name">
+        </div>
+
+        <div class="box_qt">
+            <label for="" class="qt">Quantity</label>
+            <input type="text" name="" id="nhap_qty">
+        </div>
+
+        <div class="box_up">
+            <label for="" class="up">Unit Price</label>
+            <input type="text" name="" id="nhap_up">
+        </div>
+
+        <div class="box_dc">
+            <label for="" class="dc">Discount</label>
+            <input type="text" name="" id="nhap_dc">
+        </div>
+
+        <div class="button">
+            <input type="button" name="" id="Sell" onclick="sell()" value="Sell">
+            <input type="button" name="" id="Cancel" onclick="cancel()" value="Cancel">
+        </div>
+    </form>
+    <table id="table">
+        <tr>
+            <th>ID</th>
+            <th>Product Name</th>
+            <th>Quantity</th>
+            <th>Unit Price</th>
+            <th>Discount</th>
+            <th>SubTotal</th>
+        </tr>
+    </table>
+    <script src="product.js"></script>
+</body>
+</html>
